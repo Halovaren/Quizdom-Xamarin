@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nicca\\!school\\2ND YEAR\\3rd Term\\IT123P\\Final MP\\!pinaka-final na pre\\IT123P_MP\\IT123P_Final_Course_Assessment_MP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nicca\\!school\\2ND YEAR\\3rd Term\\IT123P\\Final MP\\!pinaka-final na pre\\IT123P_MP\\IT123P_Final_Course_Assessment_MP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nicca\\!school\\2ND YEAR\\3rd Term\\IT123P\\Final MP\\!pinaka-final na pre\\IT123P_MP\\IT123P_Final_Course_Assessment_MP.csproj",
+        "projectName": "IT123P_Final_Course_Assessment_MP",
+        "projectPath": "C:\\Users\\nicca\\!school\\2ND YEAR\\3rd Term\\IT123P\\Final MP\\!pinaka-final na pre\\IT123P_MP\\IT123P_Final_Course_Assessment_MP.csproj",
+        "packagesPath": "C:\\Users\\nicca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicca\\!school\\2ND YEAR\\3rd Term\\IT123P\\Final MP\\!pinaka-final na pre\\IT123P_MP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nicca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Google.Apis.Admin.Directory.directory_v1": {
+              "target": "Package",
+              "version": "[1.60.0.3069, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

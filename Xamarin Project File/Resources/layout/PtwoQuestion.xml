@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="100px"
+        android:layout_marginTop="50px"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30px"
+            android:textSize="50px"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="50px"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:textColor="#000"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            android:layout_width="1500px"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:textAlignment="center"
+            android:textSize="50px"
+            android:id="@+id/textView1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_gravity="center"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:text="Button"
+                android:backgroundTint="#9166FE"
+                android:layout_width="700px"
+                android:layout_height="200px"
+                android:layout_marginRight="30px"
+                android:textColor="#fff"
+                android:id="@+id/button1" />
+            <Button
+                android:text="Button"
+                android:backgroundTint="#9166FE"
+                android:layout_width="700px"
+                android:layout_height="200px"
+                android:textColor="#fff"
+                android:id="@+id/button2" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/linearLayout4">
+            <Button
+                android:text="Button"
+                android:backgroundTint="#9166FE"
+                android:layout_width="700px"
+                android:layout_height="200px"
+                android:layout_marginRight="30px"
+                android:textColor="#fff"
+                android:id="@+id/button3" />
+            <Button
+                android:text="Button"
+                android:backgroundTint="#9166FE"
+                android:layout_width="700px"
+                android:layout_height="200px"
+                android:textColor="#fff"
+                android:id="@+id/button4" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

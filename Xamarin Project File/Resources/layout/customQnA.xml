@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/scrollView1" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="70px"
+        android:layout_marginRight="70px"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:textColor="#9166FE"
+            android:textStyle="bold"
+            android:text="Make 10 questions and 4 choices for each question."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Question"
+            android:textColor="#9166FE"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:textSize="45px"
+            android:id="@+id/textView2" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your question here."
+            android:id="@+id/editText1" />
+        <TextView
+            android:text="Choices"
+            android:textColor="#9166FE"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:textSize="45px"
+            android:id="@+id/textView3" />
+        <EditText
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Choice 1"
+            android:id="@+id/editText2" />
+        <EditText
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Choice 2"
+            android:id="@+id/editText3" />
+        <EditText
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Choice 3"
+            android:id="@+id/editText4" />
+        <EditText
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Choice 4"
+            android:id="@+id/editText5" />
+        <EditText
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correct Answer"
+            android:id="@+id/editText6" />
+
+        <Button
+                android:text="SUBMIT"
+                android:layout_width="850px"
+                android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:layout_gravity="center"
+            android:backgroundTint="#9166FE"
+            android:textColor="#fff"
+                android:id="@+id/button1" />
+            <Button
+                android:text="REMOVE ALL QUESTIONS"
+                android:layout_width="850px"
+                android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#9166FE"
+            android:textColor="#fff"
+                android:id="@+id/button2" />
+        
+    </LinearLayout>
+</ScrollView>

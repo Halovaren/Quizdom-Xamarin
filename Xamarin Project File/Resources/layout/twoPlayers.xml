@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageButton
+        android:src="@drawable/player1"
+        android:layout_width="400px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|left"
+        android:id="@+id/player1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="1500px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/linearLayout1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:gravity="left"
+            android:id="@+id/linearLayout2">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3">
+                <TextView
+                    android:layout_marginLeft="70px"
+                    android:textColor="#9166FE"
+                    android:textStyle="bold"
+                    android:text="Points:"
+                    android:textSize="50px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+                <TextView
+                    android:layout_marginLeft="10px"
+                    android:textColor="#9166FE"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="50px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/player1_points" />
+            </LinearLayout>
+            <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_marginLeft="980px"
+                android:id="@+id/linearLayout4">
+                <TextView
+                    android:text="Points:"
+                    android:textColor="#9166FE"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="50px"
+                    android:layout_gravity="right"
+                    android:id="@+id/textView6"/>
+                <TextView
+                    android:text="0"
+                    android:textColor="#9166FE"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="50px"
+                    android:layout_gravity="right"
+                    android:id="@+id/player2_points" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:textColor="#000"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="50px"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Choices:"
+            android:textColor="#000"
+            android:textSize="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70px"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Text"
+            android:textColor="#000"
+            android:textSize="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+    <ImageButton
+        android:src="@drawable/player2"
+        android:layout_width="400px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:id="@+id/player2" />
+
+</LinearLayout>
